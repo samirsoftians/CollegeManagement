@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="510dp">
+            <TableRow
+                android:id="@+id/tabla_cabecera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/textView11"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:text="TIME/DAY"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/textView12"
+                        android:background="@drawable/table_border"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:text="Monday"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+
+                    <EditText
+                        android:id="@+id/textView13"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:text="Tuesday"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/textView14"
+                        android:background="@drawable/table_border"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:text="Wednesday"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/textView15"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:text="Thursday"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/textView16"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:text="Friday"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/textView17"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:text="Saturday"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/F7"
+
+                        android:textAlignment="center"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/F1"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/F2"
+                        android:layout_width="120dp"
+                        android:textAlignment="center"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/F3"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/F4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/F5"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/F6"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium">
+
+                    </EditText>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/G7"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/G1"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/G2"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/G3"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/G4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/G5"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/G6"
+                        android:layout_width="120dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+
+                </TableRow>
+
+                <TableRow android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:text="SHORT RECESS"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/H7"
+                        android:background="@drawable/table_border"
+                        android:layout_width="120dp"
+                        android:textAlignment="center"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/H1"
+                        android:textAlignment="center"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/H2"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/H3"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/H4"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/H5"
+                        android:layout_width="120dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/H6"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/I7"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/I1"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/I2"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/I3"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/I4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/I5"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/I6"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                </TableRow>
+
+                <TableRow android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:text="LONG RECESS"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif"
+                        android:layout_height="40dp"
+                        />
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/J7"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/J1"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/J2"
+                        android:textAlignment="center"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/J3"
+                        android:textAlignment="center"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/J4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/J5"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/J6"
+                        android:layout_width="120dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/K7"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/K1"
+                        android:textAlignment="center"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:textAlignment="center"
+                        android:id="@+id/K2"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/K3"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/K4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/K5"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/K6"
+                        android:layout_width="120dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/L7"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/L1"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/L2"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <EditText
+                        android:id="@+id/L3"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/L4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/L5"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:background="@drawable/table_border"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                    <EditText
+                        android:id="@+id/L6"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/table_border"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+                </TableRow>
+                <Button
+                    android:id="@+id/samir"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/btn_login_bg"
+                    android:textColor="@color/btn_login"
+                    android:text="Save"/>
+            </TableLayout>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

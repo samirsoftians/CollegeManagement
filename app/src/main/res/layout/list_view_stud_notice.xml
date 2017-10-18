@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textColor="#578dc2"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:id="@+id/noticstudename" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:layout_marginLeft="10dp"
+            android:textColor="#d90906"
+            android:textSize="20dp"
+            android:id="@+id/noticestudsubject"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textColor="#578dc2"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:id="@+id/noticestudbody" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

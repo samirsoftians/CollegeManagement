@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softians.college">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/c"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".Leave"/>
+        <activity android:name=".Student"/>
+        <activity android:name=".TimeTable"/>
+        <activity android:name=".Syllabus"/>
+        <activity android:name=".Attendence"/>
+        <activity android:name=".Principal"/>
+        <activity android:name=".Notice"/>
+        <activity android:name=".Teacher"/>
+        <activity android:name=".Structure"/>
+        <activity android:name=".Teacher_Info"/>
+        <activity android:name=".Showleave"/>
+        <activity android:name=".Show"/>
+        <activity android:name=".Shownotice"/>
+        <activity android:name=".ShownoticeStudent"/>
+        <activity android:name=".TT"/>
+        <activity android:name=".YearClass"/>
+        <activity android:name=".TTT"/>
+        <activity android:name=".TTTT"/>
+        <activity android:name=".Getdata"/>
+        <activity android:name=".Getdata_stud"/>
+
+
+
+    </application>
+
+</manifest>

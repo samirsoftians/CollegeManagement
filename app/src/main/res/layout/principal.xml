@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="10dp"
+        android:padding="30dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Notice"
+        android:textStyle="bold"
+        android:id="@+id/pnotice"
+        android:background="@color/btn_login_bg"
+        android:textColor="@color/btn_login"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set TimeTable"
+        android:id="@+id/settimetable"
+        android:textStyle="bold"
+        android:background="@color/btn_login_bg"
+        android:textColor="@color/btn_login"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Leave"
+            android:id="@+id/pleave"
+            android:textStyle="bold"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Syllabus"
+            android:id="@+id/upsyllabus"
+            android:textStyle="bold"
+            android:background="@color/btn_login_bg"
+            android:textColor="@color/btn_login"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
